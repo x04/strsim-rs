@@ -4,6 +4,12 @@ This project attempts to adhere to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased]
 
+## [0.11.0] - (2020-07-05)
+
+### Added
+
+- Chapman Length Deviation implementation
+
 ## [0.10.0] - (2020-01-31)
 
 ### Added

@@ -97,4 +97,13 @@ mod benches {
             strsim::sorensen_dice(&a, &b);
         })
     }
+
+    #[bench]
+    fn bench_chapman_length_deviation(bencher: &mut Bencher) {
+        let a = "Philosopher Friedrich Nietzsche";
+        let b = "Philosopher Jean-Paul Sartre";
+        bencher.iter(|| {
+            strsim::chapman_length_deviation(a, b);
+        })
+    }
 }
